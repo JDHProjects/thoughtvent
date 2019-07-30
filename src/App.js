@@ -61,7 +61,7 @@ const styles = {
     textAlign: 'center',
     //backgroundColor: '#282F30',
     fontSize: 40,
-    color: '#FFFFFF',
+    //color: '#FFFFFF',
     borderWidth: 0,
     width: '30%',
     borderRadius: 15,
