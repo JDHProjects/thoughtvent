@@ -60,7 +60,7 @@ const styles = {
   input: {
     textAlign: 'center',
     backgroundColor: '#282F30',
-    fontSize: 20,
+    fontSize: 40,
     color: '#FFFFFF',
     borderWidth: 0,
     width: '30%',
