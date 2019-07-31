@@ -63,7 +63,7 @@ const styles = {
     fontSize: 20,
     color: '#FFFFFF',
     borderWidth: 0,
-    width: '30%',
+    width: '40%',
     borderRadius: 15,
     
   },
