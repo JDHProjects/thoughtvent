@@ -39,7 +39,8 @@ class App extends React.Component{
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             welcome to thoughtvent
-            
+          </p>
+          <p>
             whats on your mind?
           </p>
           <input
