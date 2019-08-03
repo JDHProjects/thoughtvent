@@ -44,7 +44,7 @@ class App extends React.Component{
             whats on your mind?
           </p>
           <input
-              placeholder="click here"
+              placeholder="let us know"
               style={styles.input}
               type="text"
               value={this.state.value}
