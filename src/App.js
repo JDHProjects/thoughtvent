@@ -35,7 +35,7 @@ class App extends React.Component{
   render(){
     return (
       <div className="App">
-        <header className="App-header" style={styles.background}>
+        <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             welcome to thoughtvent
@@ -59,7 +59,7 @@ class App extends React.Component{
 const styles = {
   input: {
     textAlign: 'center',
-    backgroundColor: '#282F30',
+    backgroundColor: '#282c34',
     fontSize: 20,
     color: '#FFFFFF',
     borderWidth: 0,
@@ -69,11 +69,8 @@ const styles = {
   },
   thisStyle: {
     textAlign: 'center',
-    backgroundColor: '#282F30',
+    backgroundColor: '#282c34',
     fontSize: 16,
-  },
-  background: {
-    backgroundColor: '#282F30',
   },
 }
 
