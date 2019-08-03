@@ -8,10 +8,25 @@ class App extends React.Component{
 
     this.state = {
       value: "",
+      response: '',
     };
 
     this.handleChange = this.handleChange.bind(this);
   }
+
+  componentDidMount() {
+    this.callApi()
+      .then(res => this.setState({ response: res.express }))
+      .catch(err => console.log(err));
+  }
+  
+  callApi = async () => {
+    const response = await fetch('/api/hello');
+    const body = await response.json();
+    if (response.status !== 200) throw Error(body.message);
+    
+    return body;
+  };
 
   handleChange(key){
     return (event) => {
@@ -43,6 +58,7 @@ class App extends React.Component{
           <p>
             whats on your mind?
           </p>
+          <p>{this.state.response}</p>
           <input
               placeholder="let us know"
               style={styles.input}
